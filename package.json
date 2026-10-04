@@ -1,0 +1,17 @@
+{
+  "name": "quqyq-legaltech",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test scripts/*.test.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "dependencies": {
+    "animejs": "4.5.0"
+  },
+  "devDependencies": {
+    "jsdom": "30.1.2"
+  }
+}
